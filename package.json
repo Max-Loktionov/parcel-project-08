@@ -1,34 +1,37 @@
 {
-  "name": "goit-js-hw-08",
-  "version": "1.1.0",
-  "description": "## Скрытые файлы",
-  "main": "index.js",
-  "homepage": "https://max-loktionov.github.io/goit-js-hw-08/",
+  "name": "parcel-project-0800",
+  "version": "2.0.0",
+  "description": "**Read in other languages: [Русский](README.md), [Polski](README.pl.md).**",
+  "homepage": "https://max-loktionov.github.io/parcel-project-0800/",
   "scripts": {
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /parcel-project-template/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Max-Loktionov/parcel-project-0800.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Max-Loktionov <studreno@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5",
-    "parcel-plugin-handlebars-precompile": "^1.0.2",
-    "parcel-plugin-nuke-dist": "^1.0.1",
-    "posthtml-include": "^1.6.2",
-    "sass": "^1.32.8"
+    "url": "https://github.com/Max-Loktionov/parcel-project-0800/issues"
   },
   "dependencies": {
-    "@vimeo/player": "^2.16.4",
-    "lodash": "^4.17.21",
-    "lodash.throttle": "^4.1.1",
+    "axios": "^0.27.2",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "buffer": "^6.0.3",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-transformer-hbs": "^1.0.4",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10",
     "simplelightbox": "^2.10.3"
-  }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "main": "index.js"
 }
